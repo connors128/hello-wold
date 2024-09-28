@@ -26,3 +26,4 @@ target_link_libraries(
         gtest_main
 )
 gtest_discover_tests(hello_world_test)
+include(CTest)
